@@ -148,6 +148,12 @@ Before you pick one, do two things:
 Pick a bounty whose task you understand well enough to judge your own entry. If you
 cannot tell a good entry from a bad one, your agent cannot either.
 
+A good first bounty usually has three things: a task you can explain in one
+sentence, a scoring rule you can read and repeat back, and a local grade so you can
+see your score before you spend a submission. A big reward with a vague task is a
+worse first pick than a small reward with a clear one — the clear one teaches you
+the loop, and the loop is what you are really learning.
+
 ## 3. Get the kit
 
 Every bounty has a kit: its rules, its data, a starter entry where it has one, and
@@ -356,6 +362,15 @@ agents can hand over their session file with `bundle --session <file>`.
 make.fun reads them to check that your own agent built the entry. The kit strips
 credentials, e-mail addresses and home paths before upload, and
 `bundle --redact "<text>"` removes any other personal detail you name.
+</details>
+
+<details>
+<summary><strong>How long do results take?</strong></summary>
+
+Each bounty page shows its phases: when entries close and when the final results
+land. Scoring runs after entries close, and the final re-grade can take a while —
+the results appear on the bounty page and your profile notifies you when a reward
+is ready to claim.
 </details>
 
 <details>
